@@ -1,0 +1,46 @@
+#img1 {
+    width: 175px;
+    height: 175px;
+}
+body {
+    text-align: center;
+    font-family: monospace;
+    background-color: yellow;
+}
+.menu {
+    top: 10px;
+    right: 30px;
+    position: fixed;
+    cursor: pointer;
+    z-index: 10;
+    list-style: none;
+    background-color: chartreuse;
+}
+.link {
+    float: left;
+    color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.link: hover {
+    background-color: yellow;
+}
+.sop {
+    width: 300px;
+    height: 250px;
+    transition: transform .2s;
+}
+.sop:hover {
+    transform: scale(0.9);
+}
+img {
+    transition: transform .2s;
+}
+img:hover {
+    transform: scale(0.9);
+}
+
